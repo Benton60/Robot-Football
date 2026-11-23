@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "f120774b-6fa4-4f08-8c43-d6ff9bb6e4b1")
-	(paper "A4")
+	(paper "A5")
 	(title_block
 		(title "Football Robot Controller")
 		(date "2026-10-20")
@@ -1929,16 +1929,166 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
-		(at 142.24 107.95)
+		(at 144.78 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be767c37-bf6c-45fc-b275-ea89d9364011")
 	)
 	(wire
 		(pts
-			(xy 85.09 26.67) (xy 85.09 41.91)
+			(xy 87.63 17.78) (xy 87.63 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1948,7 +2098,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 50.8) (xy 46.99 53.34)
+			(xy 29.21 43.18) (xy 29.21 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1958,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 144.78 107.95)
+			(xy 147.32 87.63) (xy 147.32 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1968,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 72.39) (xy 142.24 76.2)
+			(xy 144.78 55.88) (xy 144.78 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1978,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 107.95) (xy 139.7 107.95)
+			(xy 144.78 91.44) (xy 142.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1988,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 107.95) (xy 142.24 107.95)
+			(xy 147.32 91.44) (xy 144.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1998,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 119.38) (xy 80.01 115.57)
+			(xy 82.55 102.87) (xy 82.55 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2008,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 104.14) (xy 139.7 107.95)
+			(xy 142.24 87.63) (xy 142.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2018,7 +2168,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 30.48) (xy 74.93 41.91)
+			(xy 77.47 21.59) (xy 77.47 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2028,7 +2178,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 104.14) (xy 142.24 107.95)
+			(xy 144.78 87.63) (xy 144.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2038,7 +2188,7 @@
 	)
 	(global_label "SPI0 CS RFM69"
 		(shape input)
-		(at 57.15 77.47 180)
+		(at 59.69 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2048,7 +2198,7 @@
 		)
 		(uuid "05c72358-98cb-4e21-bf4b-a61640d29b22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.2273 77.47 0)
+			(at 41.7673 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2062,7 +2212,7 @@
 	)
 	(global_label "SPI0 CS RFM69"
 		(shape input)
-		(at 129.54 88.9 180)
+		(at 132.08 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2072,7 +2222,7 @@
 		)
 		(uuid "1c738d67-4b8f-4243-82b1-cab0e6dc9e1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.6173 88.9 0)
+			(at 114.1573 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2086,7 +2236,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 139.7 107.95 180)
+		(at 142.24 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2096,7 +2246,7 @@
 		)
 		(uuid "3c4e331d-dfab-4e1a-9ab1-7026623e41bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.8443 107.95 0)
+			(at 135.3843 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +2260,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 80.01 119.38 180)
+		(at 82.55 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2120,7 +2270,7 @@
 		)
 		(uuid "40778b9e-236a-4c8d-b6a3-677cceaf96ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.1543 119.38 0)
+			(at 75.6943 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +2284,7 @@
 	)
 	(global_label "RFM69 Reset Signal"
 		(shape input)
-		(at 129.54 93.98 180)
+		(at 132.08 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2144,7 +2294,31 @@
 		)
 		(uuid "4d76556e-603a-49f7-953c-ba652238590c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.2631 93.98 0)
+			(at 109.8031 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SW4"
+		(shape input)
+		(at 59.69 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52186f8b-ca44-4789-8d4a-82298d3aa32d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.8344 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2158,7 +2332,7 @@
 	)
 	(global_label "SPI0 TX RFM69"
 		(shape input)
-		(at 129.54 83.82 180)
+		(at 132.08 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2168,7 +2342,7 @@
 		)
 		(uuid "58fdc568-9c13-4682-8d71-b0e69f198090")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.9197 83.82 0)
+			(at 114.4597 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2182,7 +2356,55 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 46.99 53.34 180)
+		(at 43.18 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d3ae368-8fab-44e8-96eb-4202f876d9d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0357 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SW2"
+		(shape input)
+		(at 59.69 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d714c0a-a3f1-4fd5-8844-d609d228e1d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.8344 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 29.21 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2192,7 +2414,31 @@
 		)
 		(uuid "698d2d5e-c443-4e35-a537-bdfbb622ecde")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.1343 53.34 0)
+			(at 22.3543 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SW2"
+		(shape input)
+		(at 33.02 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a74a023-579f-40ec-a121-d1872c06a864")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1644 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2206,7 +2452,7 @@
 	)
 	(global_label "SPI0 SCK RFM69"
 		(shape input)
-		(at 57.15 69.85 180)
+		(at 59.69 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2216,7 +2462,31 @@
 		)
 		(uuid "6b747ecf-4c9f-4d50-b7bc-adc4e047a1fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.9573 69.85 0)
+			(at 40.4973 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SW4"
+		(shape input)
+		(at 33.02 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79ebfddb-6a86-4522-b9e0-8330e4b94b7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1644 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2230,7 +2500,7 @@
 	)
 	(global_label "Pico Power In"
 		(shape input)
-		(at 54.61 35.56 0)
+		(at 36.83 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2240,7 +2510,7 @@
 		)
 		(uuid "80149b74-7bc5-4888-9bb3-5d5fce21f3c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.0209 35.56 0)
+			(at 53.2409 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2254,7 +2524,7 @@
 	)
 	(global_label "Antenna"
 		(shape input)
-		(at 154.94 81.28 0)
+		(at 157.48 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2264,7 +2534,7 @@
 		)
 		(uuid "81ca4c1a-a98b-49bb-be77-2614d995e05f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.4241 81.28 0)
+			(at 167.9641 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2278,7 +2548,7 @@
 	)
 	(global_label "I2C SDA Display"
 		(shape input)
-		(at 57.15 64.77 180)
+		(at 59.69 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2288,7 +2558,7 @@
 		)
 		(uuid "87552cd2-ffee-482c-800d-c891d1d6ab9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.7435 64.77 0)
+			(at 41.2835 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2300,9 +2570,9 @@
 			)
 		)
 	)
-	(global_label "3.3V Power Supplied By Pico W"
+	(global_label "SW3"
 		(shape input)
-		(at 85.09 26.67 180)
+		(at 33.02 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2310,9 +2580,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9b4998cb-b43f-42a7-951b-7b89dcb85b12")
+		(uuid "88e3afa0-a856-4469-a3a5-31e7ef3b1eae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.5646 26.67 0)
+			(at 26.1644 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2324,9 +2594,9 @@
 			)
 		)
 	)
-	(global_label "SPI0 RX RFM69"
+	(global_label "SW1"
 		(shape input)
-		(at 57.15 74.93 180)
+		(at 59.69 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2334,57 +2604,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9ca18498-e909-4dc5-8874-aff78864e74f")
+		(uuid "90cb8c2a-58cd-4c1a-8910-44d3bc8d17cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.2273 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Packet Sent{slash}Recieved Signal"
-		(shape input)
-		(at 154.94 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a6b5f036-f33e-4cda-b690-a4deb0c73501")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.986 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "Packet Sent{slash}Recieved Signal"
-		(shape input)
-		(at 57.15 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0e722a1-e3c8-424c-a5f8-3c05d6dee85d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.104 85.09 0)
+			(at 52.8344 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,17 +2620,17 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 133.35 43.18 180)
+		(at 43.18 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "b60febeb-3896-4270-90cc-7c558dcb274c")
+		(uuid "968f3796-e969-4fdf-8436-d936153b8273")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.4943 43.18 0)
+			(at 50.0357 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2416,13 +2638,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "SPI0 TX RFM69"
+	(global_label "3.3V Power Supplied By Pico W"
 		(shape input)
-		(at 57.15 72.39 180)
+		(at 87.63 17.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2430,105 +2652,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c2c0109e-367d-4c74-bbb6-c31af5108421")
+		(uuid "9b4998cb-b43f-42a7-951b-7b89dcb85b12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.5297 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C SCL Display"
-		(shape input)
-		(at 133.35 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c8c209b9-bb12-48ac-af2b-d2d721c0919a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.004 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C SDA Display"
-		(shape input)
-		(at 133.35 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc10f64f-70c2-4ef9-8a89-f2881cf9c2bd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9435 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Pico Power In"
-		(shape input)
-		(at 74.93 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dcc4f258-fd6b-4c4c-9738-06779586a925")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.5191 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C SCL Display"
-		(shape input)
-		(at 57.15 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df7bd64d-ce69-4a8c-ba75-2ba0d2b09327")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.804 67.31 0)
+			(at 54.1046 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2542,7 +2668,7 @@
 	)
 	(global_label "SPI0 RX RFM69"
 		(shape input)
-		(at 129.54 86.36 180)
+		(at 59.69 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2550,9 +2676,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e3b53986-4322-4ea0-b867-4ce43d9ee567")
+		(uuid "9ca18498-e909-4dc5-8874-aff78864e74f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.6173 86.36 0)
+			(at 41.7673 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2564,9 +2690,249 @@
 			)
 		)
 	)
+	(global_label "Packet Sent{slash}Recieved Signal"
+		(shape input)
+		(at 157.48 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6b5f036-f33e-4cda-b690-a4deb0c73501")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.526 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Packet Sent{slash}Recieved Signal"
+		(shape input)
+		(at 59.69 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0e722a1-e3c8-424c-a5f8-3c05d6dee85d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 28.644 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 153.67 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b60febeb-3896-4270-90cc-7c558dcb274c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.8143 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI0 TX RFM69"
+		(shape input)
+		(at 59.69 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2c0109e-367d-4c74-bbb6-c31af5108421")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.0697 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C SCL Display"
+		(shape input)
+		(at 153.67 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8c209b9-bb12-48ac-af2b-d2d721c0919a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.324 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C SDA Display"
+		(shape input)
+		(at 153.67 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc10f64f-70c2-4ef9-8a89-f2881cf9c2bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.2635 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Pico Power In"
+		(shape input)
+		(at 77.47 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcc4f258-fd6b-4c4c-9738-06779586a925")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.0591 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C SCL Display"
+		(shape input)
+		(at 59.69 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df7bd64d-ce69-4a8c-ba75-2ba0d2b09327")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.344 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SPI0 RX RFM69"
+		(shape input)
+		(at 132.08 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3b53986-4322-4ea0-b867-4ce43d9ee567")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.1573 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 43.18 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e778c175-aaeb-44fd-9050-d69e6cccc119")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0357 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "3.3V Power Supplied By Pico W"
 		(shape input)
-		(at 133.35 40.64 180)
+		(at 153.67 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2576,7 +2942,7 @@
 		)
 		(uuid "e8b572c2-5940-4633-a0ad-5a5cdbea3579")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.8246 40.64 0)
+			(at 120.1446 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2590,7 +2956,7 @@
 	)
 	(global_label "SPI0 SCK RFM69"
 		(shape input)
-		(at 129.54 81.28 180)
+		(at 132.08 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2600,7 +2966,31 @@
 		)
 		(uuid "ec2a7fff-68db-48fe-8c44-293e5fbc8695")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.3473 81.28 0)
+			(at 112.8873 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SW1"
+		(shape input)
+		(at 33.02 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0b4b6bd-5114-45a6-920a-6cd95dea96e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1644 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2614,7 +3004,7 @@
 	)
 	(global_label "3.3V Power Out"
 		(shape input)
-		(at 142.24 72.39 180)
+		(at 144.78 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2624,7 +3014,7 @@
 		)
 		(uuid "f867f634-17de-4a65-af22-53d9eba1477f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.3777 72.39 0)
+			(at 126.9177 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2636,9 +3026,57 @@
 			)
 		)
 	)
+	(global_label "SW3"
+		(shape input)
+		(at 59.69 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9f723c2-03a0-4647-a556-72efa5cb3a59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.8344 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 43.18 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbaf7e46-8a5f-488d-8a71-b528626fc1cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0357 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RFM69 Reset Signal"
 		(shape input)
-		(at 57.15 82.55 180)
+		(at 59.69 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2648,7 +3086,7 @@
 		)
 		(uuid "fe31a854-d31e-40ad-aeee-22195e594b4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.8731 82.55 0)
+			(at 37.4131 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,7 +3100,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico_W")
-		(at 80.01 80.01 0)
+		(at 82.55 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2673,7 +3111,7 @@
 		(fields_autoplaced yes)
 		(uuid "223b909e-24f5-45bf-ba67-1215421f16f1")
 		(property "Reference" "A1"
-			(at 82.1533 114.3 0)
+			(at 84.6933 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2684,7 +3122,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico_W"
-			(at 82.1533 116.84 0)
+			(at 84.6933 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2695,7 +3133,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_W_SMD_HandSolder"
-			(at 80.01 127 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,7 +3144,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
-			(at 80.01 129.54 0)
+			(at 82.55 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2717,7 +3155,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
-			(at 80.01 132.08 0)
+			(at 82.55 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2857,8 +3295,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_A")
-		(at 46.99 40.64 0)
+		(lib_id "Switch:SW_SPST")
+		(at 38.1 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2867,9 +3305,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "68dcfd42-be62-4970-bdbb-2f242bdd8284")
-		(property "Reference" "J?"
-			(at 46.99 27.94 0)
+		(uuid "35e91096-57e2-4fef-9d49-113ccc86101a")
+		(property "Reference" "SW?"
+			(at 38.1 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2878,8 +3316,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_A"
-			(at 46.99 30.48 0)
+		(property "Value" "SW_SPST"
+			(at 38.1 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2889,7 +3327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 41.91 0)
+			(at 38.1 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,7 +3338,327 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 41.91 0)
+			(at 38.1 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 38.1 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8231c997-b5d7-47f9-ac03-873e92e57458")
+		)
+		(pin "1"
+			(uuid "18680e8c-2ebb-4be9-84c5-0dfb5adba906")
+		)
+		(instances
+			(project "footballcontroller"
+				(path "/f120774b-6fa4-4f08-8c43-d6ff9bb6e4b1"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 38.1 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "470488cf-ef38-4f8b-adc3-0b54b8d7109f")
+		(property "Reference" "SW?"
+			(at 38.1 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 38.1 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f42285d2-a924-40ca-b67c-74682f3a3c54")
+		)
+		(pin "1"
+			(uuid "5e7ddbdf-f3cc-4ce9-842f-d2c303bdf941")
+		)
+		(instances
+			(project "footballcontroller"
+				(path "/f120774b-6fa4-4f08-8c43-d6ff9bb6e4b1"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 38.1 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47d04a9e-51b7-4f7f-92e2-93e68b3782a4")
+		(property "Reference" "SW?"
+			(at 38.1 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 38.1 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 38.1 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "043e38d6-7a60-45a1-be75-e7fb7f6702fd")
+		)
+		(pin "1"
+			(uuid "2635d378-1bad-4bf7-89f4-e41a2eb74ab7")
+		)
+		(instances
+			(project "footballcontroller"
+				(path "/f120774b-6fa4-4f08-8c43-d6ff9bb6e4b1"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 38.1 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fc151e0-6097-4be8-9de6-f801b7e426bb")
+		(property "Reference" "SW?"
+			(at 38.1 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 38.1 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 38.1 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee2821d1-c92e-4550-839a-efae5ea550de")
+		)
+		(pin "1"
+			(uuid "383895e6-6a0a-4f18-b6f0-34eff9ed148f")
+		)
+		(instances
+			(project "footballcontroller"
+				(path "/f120774b-6fa4-4f08-8c43-d6ff9bb6e4b1"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_A")
+		(at 29.21 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68dcfd42-be62-4970-bdbb-2f242bdd8284")
+		(property "Reference" "J?"
+			(at 29.21 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_A"
+			(at 29.21 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2911,7 +3669,7 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
-			(at 46.99 40.64 0)
+			(at 29.21 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2947,7 +3705,7 @@
 	)
 	(symbol
 		(lib_id "MyCustom:ST7889_Display_Driver")
-		(at 134.62 44.45 0)
+		(at 154.94 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2958,7 +3716,7 @@
 		(fields_autoplaced yes)
 		(uuid "6deb2f0a-4d7a-4182-b9db-8fbe65376d64")
 		(property "Reference" "U1"
-			(at 136.906 36.83 0)
+			(at 157.226 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2969,7 +3727,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 134.62 44.45 0)
+			(at 154.94 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2979,7 +3737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 44.45 0)
+			(at 154.94 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2990,7 +3748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 44.45 0)
+			(at 154.94 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3001,7 +3759,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 44.45 0)
+			(at 154.94 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,7 +3792,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:RFM69HCW")
-		(at 142.24 88.9 0)
+		(at 144.78 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3045,7 +3803,7 @@
 		(fields_autoplaced yes)
 		(uuid "77b040fe-9788-472a-9420-5a4df2c2f2ad")
 		(property "Reference" "U?"
-			(at 144.3833 73.66 0)
+			(at 146.9233 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3056,7 +3814,7 @@
 			)
 		)
 		(property "Value" "RFM69HCW"
-			(at 144.3833 76.2 0)
+			(at 146.9233 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3067,7 +3825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 46.99 0)
+			(at 60.96 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3078,7 +3836,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.hoperf.com/data/upload/portal/20181127/5bfcb8284d838.pdf"
-			(at 58.42 46.99 0)
+			(at 60.96 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3089,7 +3847,7 @@
 			)
 		)
 		(property "Description" "Low power ISM Radio Transceiver Module, SPI interface, AES encryption, 434 or 915 MHz, up to 100mW, up to 300 kb/s, SMD-16, DIP-16"
-			(at 142.24 88.9 0)
+			(at 144.78 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
