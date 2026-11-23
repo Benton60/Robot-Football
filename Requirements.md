@@ -12,6 +12,9 @@ Rough week estimate of work time - 13 weeks to work
 
  - 13 * 24 = 390
 
+
+### Tasks
+
 1) Figure out the programming tool-chains for the controller and robot micro-controllers. 
 
  - 5 hours
